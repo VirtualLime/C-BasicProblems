@@ -33,17 +33,6 @@ should return: "Total land perimeter: 18"
 
 #Problem 3:
 
-Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
-
-Examples
-"the-stealth-warrior" gets converted to "theStealthWarrior"
-
-"The_Stealth_Warrior" gets converted to "TheStealthWarrior"
-
-"The_Stealth-Warrior" gets converted to "TheStealthWarrior"
-
-#Problem 4:
-
 A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
 
 For example, take 153 (3 digits), which is narcissistic:
@@ -60,7 +49,7 @@ This may be True and False in your language, e.g. PHP.
 
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 
-#Problem 5
+#Problem 4
 
 Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.
 
@@ -76,7 +65,7 @@ Kata.Maskify("");                 // should return ""
 Kata.Maskify("Skippy");                                   // should return "##ippy"
 Kata.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
 
-#Problem 6
+#Problem 5
 
 Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
 
@@ -86,7 +75,7 @@ Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36
 
 Note: The function accepts an integer and returns an integer.
 
-#Problem 7
+#Problem 6
 
 Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 
@@ -94,7 +83,7 @@ Examples
 Kata.PigIt("Pig latin is cool"); // igPay atinlay siay oolcay
 Kata.PigIt("Hello world !");     // elloHay orldway !
 
-#Problem 8
+#Problem 7
 
 The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
@@ -106,13 +95,13 @@ Examples
 Notes
 Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 
-#Problem 9
+#Problem 8
 
 You live in the city of Cartesia where all roads are laid out in a perfect grid. You arrived ten minutes too early to an appointment, so you decided to take the opportunity to go for a short walk. The city provides its citizens with a Walk Generating App on their phones -- everytime you press the button it sends you an array of one-letter strings representing directions to walk (eg. ['n', 's', 'w', 'e']). You always walk only a single block for each letter (direction) and you know it takes you one minute to traverse one city block, so create a function that will return true if the walk the app gives you will take you exactly ten minutes (you don't want to be early or late!) and will, of course, return you to your starting point. Return false otherwise.
 
 Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
-#Problem 10
+#Problem 9
 
 Build Tower
 Build a pyramid-shaped tower, as an array/list of strings, given a positive integer number of floors. A tower block is represented with "*" character.
@@ -136,7 +125,7 @@ And a tower with 6 floors looks like this:
 ]
 
 
-#Problem 11
+#Problem 10
 
 Task
 You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
@@ -146,7 +135,7 @@ Examples
 [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
 [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
 
-#Problem 12
+#Problem 11
 
 A format for expressing an ordered list of integers is to use a comma separated list of either
 
